@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.family {
+  font-family: "Courier New", Courier, monospace;
+}
+.font {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.font1 {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+.font2 {
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.image-container:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.image-container {
+  background-image: url("https://dash-api.yld.mn/api/image/c76d7a96-6ba0-4b7d-80d3-41e812370818");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* background-size: cover; */
+  width: 780px;
+  height: 450px;
+  padding: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.imag-container2 {
+  background-image: url("https://dash-api.yld.mn/api/image/20ade56e-8c2a-4a20-9edb-f240f84deb1e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  position: relative;
+  width: 380px;
+  height: 190px;
+  padding: 0;
+  cursor: pointer;
+}
+.overlay2 {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.image-container2:hover .overlay2 {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.image-container3 {
+  height: 380px;
+  width: 380px;
+  background-image: url(https://dash-api.yld.mn/api/image/7c3c37d5-408d-4a41-b89e-14a83186a76f);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.overlay3 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+.image-container3:hover .overlay3 {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.box1 {
+  height: 40px;
+  width: 330px;
+  margin: 13px;
+  gap: 5px;
+}
+.image-container4 {
+  background-image: url(https://dash-api.yld.mn/api/image/ce1c9351-dd60-43f2-b566-ef46c69c0dfa);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 190px;
+  width: 320px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.overlay4 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+}
+.image-container4:hover .overlay4 {
+  opacity: 0.5;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+}
+.rizzler {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+.over-rizz {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.rizzler:hover .over-rizz {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: red;
+  cursor: pointer;
+}
+.overlay5 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+}
+.image-container5 {
+  background-image: url("https://dash-api.yld.mn/api/image/311c222a-23b0-4a53-94bc-53f4c05922c6");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 380px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  cursor: pointer;
+  border: #adb5ad 1px solid;
+}
+.image-container5:hover .overlay5 {
+  opacity: 0.5;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+}
+.dugui {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.ungu {
+  color: #adb5ad;
+  cursor: pointer;
+}
+.ungu:hover {
+  color: white;
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+}
+.mail {
+  border: 1px #0040d4 solid;
+  height: 48px;
+  width: 250px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 20px;
+}
+.tseg {
+  flex: 1 1;
+  height: 1px;
+  background-image: linear-gradient(90deg, #a3a3a3 33%, hsla(0, 0%, 100%, 0) 0);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+.ug {
+  background-color: white;
+  border-top: #adb5bd 1px solid;
+  border-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+  cursor: pointer;
+  width: 378px;
+  height: 190px;
+  padding: 13px;
+  color: black;
+}
+.adds1 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 260px;
+  width: 380px;
+  position: relative;
+
+  z-index: 5;
+}
+.adds {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 260px;
+  width: 380px;
+  position: relative;
+  z-index: 5;
+}
+
+#image-container6 {
+  background-image: url("https://dash-api.yld.mn/api/image/7c3c37d5-408d-4a41-b89e-14a83186a76f");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  height: 380px;
+  width: 380px;
+}
+#overlay6 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), transparent);
+
+  transition: all 0.4s ease;
+}
+#image-container6:hover #overlay6 {
+  cursor: pointer;
+  padding-top: 300px !important;
+
+  transition: all 0.4s ease;
+}
+.blink {
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: anivch;
+}
+@keyframes anivch {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+.head {
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.head:hover {
+  cursor: pointer;
+  color: #0040d4;
+}
+.search {
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.search:hover {
+  background-color: #a3a3a3;
+  border-radius: 50%;
+}
+.uzeh {
+  background-color: #0040d4;
+  color: white;
+}
+.uzeh:hover {
+  background-color: white;
+  color: #a3a3a3;
+}
